@@ -25,11 +25,15 @@ no_index:
     - examples
     - author
     - builder
+provides:
+  Algorithm::AdaGrad:
+    file: lib/Algorithm/AdaGrad.pm
+    version: '0.02'
 requires:
   perl: '5.012'
 resources:
   bugtracker: https://github.com/hideo55/p5-Algorithm-AdaGrad/issues
   homepage: https://github.com/hideo55/p5-Algorithm-AdaGrad
   repository: git://github.com/hideo55/p5-Algorithm-AdaGrad.git
-version: 0.01_01
+version: '0.02'
 x_authority: cpan:HIDEAKIO
