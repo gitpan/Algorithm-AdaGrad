@@ -1,7 +1,7 @@
 ---
 abstract: 'AdaGrad learning algorithm.'
 author:
-  - 'hideo55 <hide.o.j55@gmail.com>'
+  - 'Hideaki Ohno <hide.o.j55@gmail.com>'
 build_requires:
   File::Temp: '0'
   Test::Fatal: '0'
@@ -28,12 +28,12 @@ no_index:
 provides:
   Algorithm::AdaGrad:
     file: lib/Algorithm/AdaGrad.pm
-    version: '0.02'
+    version: '0.03'
 requires:
   perl: '5.012'
 resources:
   bugtracker: https://github.com/hideo55/p5-Algorithm-AdaGrad/issues
   homepage: https://github.com/hideo55/p5-Algorithm-AdaGrad
   repository: git://github.com/hideo55/p5-Algorithm-AdaGrad.git
-version: '0.02'
+version: '0.03'
 x_authority: cpan:HIDEAKIO
